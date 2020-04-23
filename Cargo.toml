@@ -1,0 +1,16 @@
+[package]
+name = "basic_http_webm_server_rust"
+version = "0.1.0"
+authors = ["clynamen <clynamen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2.13", features = ["full"] }
+tokio-util = { version = "*", features = ["full"] }
+time = "0.1"
+serde_json = "*"
+httparse = "*"
+gstreamer = "0.15.4"
+gstreamer-app = "0.15.4"
+gstreamer-video = "0.15.3"
+log = "0.4.8"
